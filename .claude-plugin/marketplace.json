@@ -1,13 +1,12 @@
 {
   "name": "claude-red",
-  "owner": "SnailSploit",
   "version": "0.3.0",
   "description": "Comprehensive red team and offensive security skills for Claude - covering reconnaissance, exploitation, post-exploitation, and infrastructure attack techniques.",
   "license": "MIT",
-  "homepage": "https://github.com/SnailSploit/claude-red",
+  "homepage": "https://github.com/abxst/claude-red",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SnailSploit/claude-red.git"
+    "url": "https://github.com/abxst/claude-red.git"
   },
   "plugins": [
     {
