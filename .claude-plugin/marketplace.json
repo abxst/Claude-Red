@@ -1,0 +1,374 @@
+{
+  "name": "Claude Red",
+  "version": "0.3.0",
+  "description": "Comprehensive red team and offensive security skills for Claude - covering reconnaissance, exploitation, post-exploitation, and infrastructure attack techniques.",
+  "author": "SnailSploit",
+  "license": "MIT",
+  "homepage": "https://github.com/SnailSploit/claude-red",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SnailSploit/claude-red.git"
+  },
+  "plugins": [
+    {
+      "name": "offensive-active-directory",
+      "path": "./Skills/active-directory/offensive-active-directory",
+      "category": "active-directory",
+      "description": "Active Directory offensive techniques and exploitation"
+    },
+    {
+      "name": "offensive-ai-security",
+      "path": "./Skills/ai/offensive-ai-security",
+      "category": "ai",
+      "description": "AI/ML system security attacks and vulnerabilities"
+    },
+    {
+      "name": "offensive-api-abuse",
+      "path": "./Skills/api/offensive-api-abuse",
+      "category": "api",
+      "description": "API abuse and misuse techniques"
+    },
+    {
+      "name": "offensive-api-security",
+      "path": "./Skills/api/offensive-api-security",
+      "category": "api",
+      "description": "API security testing and vulnerability assessment"
+    },
+    {
+      "name": "offensive-jwt",
+      "path": "./Skills/auth/offensive-jwt",
+      "category": "auth",
+      "description": "JWT token attacks and bypass techniques"
+    },
+    {
+      "name": "offensive-oauth",
+      "path": "./Skills/auth/offensive-oauth",
+      "category": "auth",
+      "description": "OAuth protocol vulnerabilities and attacks"
+    },
+    {
+      "name": "offensive-cicd-pipeline",
+      "path": "./Skills/cicd/offensive-cicd-pipeline",
+      "category": "cicd",
+      "description": "CI/CD pipeline security and attack techniques"
+    },
+    {
+      "name": "offensive-cicd-secrets",
+      "path": "./Skills/cicd/offensive-cicd-secrets",
+      "category": "cicd",
+      "description": "Secret management vulnerabilities in CI/CD systems"
+    },
+    {
+      "name": "offensive-cloud",
+      "path": "./Skills/cloud/offensive-cloud",
+      "category": "cloud",
+      "description": "Cloud infrastructure attacks and privilege escalation"
+    },
+    {
+      "name": "offensive-container-escape",
+      "path": "./Skills/container/offensive-container-escape",
+      "category": "container",
+      "description": "Container escape techniques and vulnerabilities"
+    },
+    {
+      "name": "offensive-k8s-attacks",
+      "path": "./Skills/container/offensive-k8s-attacks",
+      "category": "container",
+      "description": "Kubernetes cluster attacks and exploitation"
+    },
+    {
+      "name": "offensive-crypto-attacks",
+      "path": "./Skills/crypto/offensive-crypto-attacks",
+      "category": "crypto",
+      "description": "Cryptographic vulnerability exploitation"
+    },
+    {
+      "name": "offensive-tls-attacks",
+      "path": "./Skills/crypto/offensive-tls-attacks",
+      "category": "crypto",
+      "description": "TLS/SSL protocol attacks and weaknesses"
+    },
+    {
+      "name": "offensive-basic-exploitation",
+      "path": "./Skills/exploit-dev/offensive-basic-exploitation",
+      "category": "exploit-dev",
+      "description": "Basic exploitation techniques and methodology"
+    },
+    {
+      "name": "offensive-crash-analysis",
+      "path": "./Skills/exploit-dev/offensive-crash-analysis",
+      "category": "exploit-dev",
+      "description": "Crash dump analysis and debugging for exploit development"
+    },
+    {
+      "name": "offensive-exploit-dev-course",
+      "path": "./Skills/exploit-dev/offensive-exploit-dev-course",
+      "category": "exploit-dev",
+      "description": "Structured exploit development course material"
+    },
+    {
+      "name": "offensive-exploit-development",
+      "path": "./Skills/exploit-dev/offensive-exploit-development",
+      "category": "exploit-dev",
+      "description": "Advanced exploit development techniques"
+    },
+    {
+      "name": "offensive-mitigations",
+      "path": "./Skills/exploit-dev/offensive-mitigations",
+      "category": "exploit-dev",
+      "description": "Bypass techniques for security mitigations"
+    },
+    {
+      "name": "offensive-toctou",
+      "path": "./Skills/exploit-dev/offensive-toctou",
+      "category": "exploit-dev",
+      "description": "Time-of-check to time-of-use (TOCTOU) vulnerability exploitation"
+    },
+    {
+      "name": "offensive-anti-forensics",
+      "path": "./Skills/forensics/offensive-anti-forensics",
+      "category": "forensics",
+      "description": "Anti-forensics techniques and evidence obfuscation"
+    },
+    {
+      "name": "offensive-c2-frameworks",
+      "path": "./Skills/forensics/offensive-c2-frameworks",
+      "category": "forensics",
+      "description": "Command and control framework detection and analysis"
+    },
+    {
+      "name": "offensive-bug-identification",
+      "path": "./Skills/fuzzing/offensive-bug-identification",
+      "category": "fuzzing",
+      "description": "Vulnerability identification through code analysis"
+    },
+    {
+      "name": "offensive-fuzzing",
+      "path": "./Skills/fuzzing/offensive-fuzzing",
+      "category": "fuzzing",
+      "description": "Fuzzing techniques and bug discovery"
+    },
+    {
+      "name": "offensive-fuzzing-course",
+      "path": "./Skills/fuzzing/offensive-fuzzing-course",
+      "category": "fuzzing",
+      "description": "Comprehensive fuzzing methodology course"
+    },
+    {
+      "name": "offensive-vuln-classes",
+      "path": "./Skills/fuzzing/offensive-vuln-classes",
+      "category": "fuzzing",
+      "description": "Common vulnerability classes and patterns"
+    },
+    {
+      "name": "offensive-advanced-redteam",
+      "path": "./Skills/infrastructure/offensive-advanced-redteam",
+      "category": "infrastructure",
+      "description": "Advanced red team infrastructure and tactics"
+    },
+    {
+      "name": "offensive-edr-evasion",
+      "path": "./Skills/infrastructure/offensive-edr-evasion",
+      "category": "infrastructure",
+      "description": "Endpoint Detection and Response (EDR) evasion techniques"
+    },
+    {
+      "name": "offensive-initial-access",
+      "path": "./Skills/infrastructure/offensive-initial-access",
+      "category": "infrastructure",
+      "description": "Initial access techniques and entry points"
+    },
+    {
+      "name": "offensive-keylogger-arch",
+      "path": "./Skills/infrastructure/offensive-keylogger-arch",
+      "category": "infrastructure",
+      "description": "Keylogger design and implementation architecture"
+    },
+    {
+      "name": "offensive-shellcode",
+      "path": "./Skills/infrastructure/offensive-shellcode",
+      "category": "infrastructure",
+      "description": "Shellcode development and optimization"
+    },
+    {
+      "name": "offensive-windows-boundaries",
+      "path": "./Skills/infrastructure/offensive-windows-boundaries",
+      "category": "infrastructure",
+      "description": "Windows security boundary bypass techniques"
+    },
+    {
+      "name": "offensive-windows-mitigations",
+      "path": "./Skills/infrastructure/offensive-windows-mitigations",
+      "category": "infrastructure",
+      "description": "Windows security mitigation bypass strategies"
+    },
+    {
+      "name": "offensive-iot",
+      "path": "./Skills/iot/offensive-iot",
+      "category": "iot",
+      "description": "IoT device hacking and vulnerability exploitation"
+    },
+    {
+      "name": "offensive-mobile",
+      "path": "./Skills/mobile/offensive-mobile",
+      "category": "mobile",
+      "description": "Mobile application security testing and exploitation"
+    },
+    {
+      "name": "offensive-network-attacks",
+      "path": "./Skills/network/offensive-network-attacks",
+      "category": "network",
+      "description": "Network-level attacks and packet manipulation"
+    },
+    {
+      "name": "offensive-data-exfiltration",
+      "path": "./Skills/post-exploitation/offensive-data-exfiltration",
+      "category": "post-exploitation",
+      "description": "Data extraction and exfiltration techniques"
+    },
+    {
+      "name": "offensive-lateral-movement",
+      "path": "./Skills/post-exploitation/offensive-lateral-movement",
+      "category": "post-exploitation",
+      "description": "Lateral movement within compromised networks"
+    },
+    {
+      "name": "offensive-persistence",
+      "path": "./Skills/post-exploitation/offensive-persistence",
+      "category": "post-exploitation",
+      "description": "Persistence mechanisms and backdoor techniques"
+    },
+    {
+      "name": "offensive-linux-privesc",
+      "path": "./Skills/privesc/offensive-linux-privesc",
+      "category": "privesc",
+      "description": "Linux privilege escalation techniques"
+    },
+    {
+      "name": "offensive-windows-privesc",
+      "path": "./Skills/privesc/offensive-windows-privesc",
+      "category": "privesc",
+      "description": "Windows privilege escalation techniques"
+    },
+    {
+      "name": "offensive-osint",
+      "path": "./Skills/recon/offensive-osint",
+      "category": "recon",
+      "description": "Open-source intelligence gathering techniques"
+    },
+    {
+      "name": "offensive-osint-methodology",
+      "path": "./Skills/recon/offensive-osint-methodology",
+      "category": "recon",
+      "description": "Structured OSINT methodology and frameworks"
+    },
+    {
+      "name": "offensive-phishing",
+      "path": "./Skills/social-engineering/offensive-phishing",
+      "category": "social-engineering",
+      "description": "Phishing campaign design and social engineering"
+    },
+    {
+      "name": "offensive-social-engineering",
+      "path": "./Skills/social-engineering/offensive-social-engineering",
+      "category": "social-engineering",
+      "description": "Advanced social engineering tactics"
+    },
+    {
+      "name": "offensive-dependency-confusion",
+      "path": "./Skills/supply-chain/offensive-dependency-confusion",
+      "category": "supply-chain",
+      "description": "Dependency confusion and package confusion attacks"
+    },
+    {
+      "name": "offensive-supply-chain",
+      "path": "./Skills/supply-chain/offensive-supply-chain",
+      "category": "supply-chain",
+      "description": "Supply chain attack vectors and exploitation"
+    },
+    {
+      "name": "offensive-fast-checking",
+      "path": "./Skills/utility/offensive-fast-checking",
+      "category": "utility",
+      "description": "Rapid vulnerability assessment utilities"
+    },
+    {
+      "name": "offensive-reporting",
+      "path": "./Skills/utility/offensive-reporting",
+      "category": "utility",
+      "description": "Security assessment reporting and documentation"
+    },
+    {
+      "name": "offensive-business-logic",
+      "path": "./Skills/web/offensive-business-logic",
+      "category": "web",
+      "description": "Business logic vulnerability exploitation"
+    },
+    {
+      "name": "offensive-deserialization",
+      "path": "./Skills/web/offensive-deserialization",
+      "category": "web",
+      "description": "Insecure deserialization vulnerabilities"
+    },
+    {
+      "name": "offensive-file-upload",
+      "path": "./Skills/web/offensive-file-upload",
+      "category": "web",
+      "description": "File upload vulnerability exploitation"
+    },
+    {
+      "name": "offensive-graphql",
+      "path": "./Skills/web/offensive-graphql",
+      "category": "web",
+      "description": "GraphQL API security testing"
+    },
+    {
+      "name": "offensive-nosql",
+      "path": "./Skills/web/offensive-nosql",
+      "category": "web",
+      "description": "NoSQL injection attacks and exploitation"
+    },
+    {
+      "name": "offensive-sql-injection",
+      "path": "./Skills/web/offensive-sql-injection",
+      "category": "web",
+      "description": "SQL injection techniques and exploitation"
+    },
+    {
+      "name": "offensive-ssti",
+      "path": "./Skills/web/offensive-ssti",
+      "category": "web",
+      "description": "Server-side template injection (SSTI) exploitation"
+    },
+    {
+      "name": "offensive-web-auth",
+      "path": "./Skills/web/offensive-web-auth",
+      "category": "web",
+      "description": "Web authentication bypass and vulnerabilities"
+    },
+    {
+      "name": "offensive-xss",
+      "path": "./Skills/web/offensive-xss",
+      "category": "web",
+      "description": "Cross-site scripting (XSS) exploitation techniques"
+    },
+    {
+      "name": "offensive-wireless-cracking",
+      "path": "./Skills/wireless/offensive-wireless-cracking",
+      "category": "wireless",
+      "description": "WiFi password cracking and WEP/WPA attacks"
+    },
+    {
+      "name": "offensive-wireless-reconnaissance",
+      "path": "./Skills/wireless/offensive-wireless-reconnaissance",
+      "category": "wireless",
+      "description": "Wireless network reconnaissance and scanning"
+    },
+    {
+      "name": "offensive-wireless-rogue-ap",
+      "path": "./Skills/wireless/offensive-wireless-rogue-ap",
+      "category": "wireless",
+      "description": "Rogue access point setup and attacks"
+    }
+  ]
+}
