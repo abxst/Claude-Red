@@ -3,6 +3,10 @@
   "version": "0.3.0",
   "description": "Comprehensive red team and offensive security skills for Claude - covering reconnaissance, exploitation, post-exploitation, and infrastructure attack techniques.",
   "license": "MIT",
+  "owner": {
+    "name": "abxst",
+    "email": "hainthvl@gmail.com"
+  }
   "homepage": "https://github.com/abxst/claude-red",
   "repository": {
     "type": "git",
